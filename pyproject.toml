@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lesson-18-v2"
+version = "0.1.0"
+description = ""
+authors = ["qwe qwe"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = ">=4.15.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
