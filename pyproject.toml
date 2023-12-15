@@ -7,11 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-selenium = ">=4.15.2"
+selene = "2.0.0rc4"
 
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.1.0"
+pylint = "^3.0.3"
 
 [build-system]
 requires = ["poetry-core"]
